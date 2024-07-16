@@ -3,9 +3,8 @@
 # Minecraft Server Installer Script (Vanilla,Forge, Spigot & Paper) 1.7.X - 1.21+
 ## <u>About the project</u>
 
-With this project, my goal was to make installing Minecraft servers, no matter if they are Vanilla, Forge, Spigot or Paper, as easy and beginner-friendly as possible. 
-After making some Tutorials on my [YouTube Channel](https://youtube.com/realtm_csgo) and providing a detailed [Documentation](https://docs.realtm.de) for them, there were still questions and problems on how to install a Minecraft Server on a Linux-Server.
-Thats why I created this All-in-One solution for installing a Minecraft Server (Forge, Vanilla, Spigot & Paper).
+What this project is: the goal was to script the installaion of a Minecraft Server, thus providing an quick, easy, and user-friendly way to  setup a server using a menu driven installation system. Vanilla, Forge, Spigot and Paper included!
+What this project isoes not cover: it is assumed that your Linux server is setup, patched and running, with Internet connectivity. If you need the basics on Linux server setup, see the Digital Ocean site for their awsome walk-through documentation. Server Security: if you plan to make you server accessable from the internet, there are considerations not covered in this project documenation. Be sure to harden your server before exposing to the inbound internet connections.  
 
 ## Supported Distros
  - Debian 10
@@ -18,17 +17,15 @@ Thats why I created this All-in-One solution for installing a Minecraft Server (
 
 ## Requirements
 
- - SSH-Connection to your server
+ - SSH-Connection to your Linux server
  - Root Access to server (Script need to be executed as root)
  - Linux-based operating systems (only on [Supported Distros](https://github.com/officialrealTM/mcserver_installer#supported-distros))
- - Git needs to be installed on the server --> [Installation](https://github.com/officialrealTM/mcserver_installer#installation)
-
-
+ - Git installed on the server --> [Installation](https://github.com/officialrealTM/mcserver_installer#installation)
 
 # Features
 ### General Features:
-- Graphical User Interface (GUI)
-- Easy-to-Use (even for beginners!)
+- Menu Drive Install/Setup Interface
+- Simple-to-Use
 - Automatic installation of required programs/packages
 - Automatic installation of Java Versions for different Minecraft Versions (Including Java 8, Java 16, Java 17 and Java 21)
 - Creating Minecraft Server start-scripts (including a check if the correct Java Version is selcted)
@@ -54,7 +51,6 @@ Thats why I created this All-in-One solution for installing a Minecraft Server (
 - Show list of available Builds for each version to select from
 - Using Paper's official [API](https://api.papermc.io/docs/swagger-ui/index.html?configUrl=/openapi/swagger-config) to obtain available Builds
 - Adjusted Sub-Folder Naming (including the Build-Number)
-
 
 
 ## Installation
