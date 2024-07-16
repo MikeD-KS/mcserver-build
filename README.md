@@ -63,6 +63,7 @@ apt install git
 
 Downloading the script:
 ```bash
+git clone https://github.com/MikeD-KS/mcserver-build/blob/main/mcserver_installer.sh
 git clone https://github.com/officialrealTM/mcserver_installer.git
 ```
 
